@@ -19,3 +19,4 @@ bower_components
 .idea
 
 # builded directory
+app/js/
