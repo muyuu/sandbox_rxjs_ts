@@ -1,5 +1,6 @@
 import {Observable} from "rxjs/Rx";
 import {add} from './mod1';
+import hotCold from './hotCold';
 
 let result = add(1, 2);
 
@@ -51,6 +52,8 @@ const interval$ = Observable.interval(1000);
 const doneMapInterval$ = interval$.map(add1)
     .map(square);
 
-doneMapInterval$.subscribe(x=>{
-    console.log(x);
-});
+// doneMapInterval$.subscribe(x=>{
+//     console.log(x);
+// });
+
+hotCold();
