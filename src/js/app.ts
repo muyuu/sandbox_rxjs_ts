@@ -1,6 +1,7 @@
 import {Observable} from "rxjs/Rx";
 import {add} from './mod1';
 import hotCold from './hotCold';
+import subject from './subject';
 
 let result = add(1, 2);
 
@@ -57,3 +58,4 @@ const doneMapInterval$ = interval$.map(add1)
 // });
 
 hotCold();
+subject();
