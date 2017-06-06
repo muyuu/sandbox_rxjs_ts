@@ -1,4 +1,12 @@
 {
+  "name": "RxJS-TypeScript-sandbox",
+  "version": "1.0.0",
+  "description": "RxJS, TypeScript sandbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muyuu/sandbox_rxjs_ts"
+  },
+  "license": "MIT",
   "scripts": {
     "server": "webpack-dev-server --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1",
